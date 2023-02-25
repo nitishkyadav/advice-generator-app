@@ -41,16 +41,15 @@
     right: 0;
     margin: auto;
     bottom: -1.5rem;
+}
 
+.dice:hover{
+    background-color: hsl(150, 94%, 50%);
 }
 
 @media screen and (max-width: 500px){
     .container h3{
         font-size: 20px;        
-    }
-
-    .hrBar{
-        margin-bottom: 2rem;
     }
 
     .dice{

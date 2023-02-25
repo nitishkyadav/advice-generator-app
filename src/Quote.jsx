@@ -8,14 +8,18 @@ const  Quote=()=>{
     const [advice, setAdvice]=useState("");
 
     useEffect(()=>{
-        const xyz=async ()=>{
-        await getAdvice(setAdvice);
-    }
-    xyz();
+       
+    getApiData();
     },[]);
 
-
+    async function getApiData(){
+        await getAdvice(setAdvice);
+    }
  
+    const diceHandler=()=>{
+        getApiData();
+    }
+
     return (
         <Fragment>
     <div className={classes.container}>
@@ -24,14 +28,9 @@ const  Quote=()=>{
         <img className={classes.hrBar} src={desktopImg} alt="Divider" />
 
         <div className={classes.dice}>
-        <img src={dice}></img>
+        <img src={dice} alt="dice" onClick={diceHandler}></img>
         </div>
     </div>
-        
-
-    {/* <div className={classes.dice}>
-        <img src={dice}></img>
-    </div> */}
     </Fragment>
 
     )
