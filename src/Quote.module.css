@@ -1,0 +1,28 @@
+.container{
+    background-color: hsl(217, 19%, 24%);
+    width: 80%;
+    max-width: 30rem;
+    padding: 0.5rem 1rem;
+    max-height: 25rem;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.container p{
+    margin-top: 1rem;
+    color:hsl(150, 100%, 66%);
+    margin-bottom: 1rem;
+}
+
+.container h3{
+    color: white;
+    max-width: 28rem;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.container img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 90%;
+}
