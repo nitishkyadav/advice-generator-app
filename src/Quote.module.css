@@ -1,4 +1,5 @@
 .container{
+    position: relative;
     background-color: hsl(217, 19%, 24%);
     margin: auto;
     width: 80%;
@@ -6,7 +7,7 @@
     padding: 0.5rem 1rem;
     max-height: 25rem;
     border-radius: 10px;
-    position: relative;
+
 }
 
 .container p{
@@ -30,10 +31,30 @@
 
 .dice{
     display: flex;
+    height: 3rem;
+    width: 3rem;
     position: absolute;
     background-color: hsl(150, 100%, 66%);
     padding: 0.7rem;
     border-radius: 100%;
-    left: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
     bottom: -1.5rem;
+
+}
+
+@media screen and (max-width: 500px){
+    .container h3{
+        font-size: 20px;        
+    }
+
+    .hrBar{
+        margin-bottom: 2rem;
+    }
+
+    .dice{
+        /* left:4%; */
+        padding: 0.5rem;
+    }
 }
