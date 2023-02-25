@@ -27,12 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
--Desktop UI <br>
+#### Desktop UI <br>
+
 ![Desktop UI](./screenshots/Desktop.png)
 <br>
 <br>
--Mobile UI
+
+#### Mobile UI<br>
+
 ![Mobile UI](./screenshots/Mobile.png)
+<br>
 
 ### Links
 
