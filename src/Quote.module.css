@@ -3,28 +3,27 @@
     background-color: hsl(217, 19%, 24%);
     margin: auto;
     width: 80%;
-    max-width: 30rem;
+    max-width: 32rem;
     padding: 0.5rem 1rem;
     max-height: 25rem;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
 .container p{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color:hsl(150, 100%, 66%);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .container h3{
     color: white;
-    max-width: 28rem;
+    max-width: 30rem;
     font-size: 28px;
-    margin-bottom: 1rem;
 }
 
 .hrBar{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     max-width: 92%;
 }
