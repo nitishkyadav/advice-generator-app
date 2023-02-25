@@ -1,15 +1,16 @@
 .container{
     background-color: hsl(217, 19%, 24%);
+    margin: auto;
     width: 80%;
     max-width: 30rem;
     padding: 0.5rem 1rem;
     max-height: 25rem;
     border-radius: 10px;
-    z-index: 10;
+    position: relative;
 }
 
 .container p{
-    margin-top: 1rem;
+    margin-top: 2rem;
     color:hsl(150, 100%, 66%);
     margin-bottom: 1rem;
 }
@@ -21,8 +22,18 @@
     margin-bottom: 1rem;
 }
 
-.container img{
+.hrBar{
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 90%;
+    margin-bottom: 3rem;
+    max-width: 92%;
+}
+
+.dice{
+    display: flex;
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    padding: 0.7rem;
+    border-radius: 100%;
+    left: 45%;
+    bottom: -1.5rem;
 }
